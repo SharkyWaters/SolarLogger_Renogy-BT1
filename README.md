@@ -1,4 +1,12 @@
-# Renogy BT-1
+# Solar Logger for Renogy BT-1 using Cyrils Renogy-BT1 Project
+
+A massive thank you goes to Cyrils for his Renogy-BT1 project available at https://github.com/cyrils/renogy-bt1
+
+The code has been edited to save the output to a log file which is saved in the same directory as the code. The logfile is automatically created and named by prefixing a timestamp of when the logging session was started.
+
+
+# Below README info is from Cyrils/Renogy-BT1
+
 Python library to read Renogy RS232 compatible [BT-1](https://www.renogy.com/bt-1-bluetooth-module-new-version/) bluetooth adapter. Tested with **Rover** / **Wanderer** series charge controllers and **Raspberry Pi Zero 2 W**. It might also work with other  "SRNE like" devices like Rich Solar, PowMr, WEIZE etc.
 
 ## Example
